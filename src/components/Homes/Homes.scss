@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-body {
+
+    margin-bottom: 30px;
+
+    .header-container {
+        padding-left: 145px;
+    }
+}
+
+// slider
+.slider {
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    margin-bottom: 20px;
+
+    .image-slider {
+        border-radius: 10px;
+        max-width: 850px;
+        max-height: 800px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+.navbar-slider {
+    border: 1px solid red;
+    width: 700px;
+    max-height: 2000px;
+    height: 50px;
+    max-width: 1000px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 2px;
+
+    .close {
+
+        margin-top: 25px;
+        color: black;
+        padding: 0;
+        width: 70px;
+        height: 20px;
+        background-color: rgb(206, 207, 208);
+        border-radius: 5px;
+        font-size: 10px;
+        outline: none;
+
+        .span {}
+    }
+
+    .close:hover {
+        background-color: rgb(192, 194, 196);
+    }
+}
+
+.content-container {
+    width: 700px;
+    max-height: 2000px;
+    height: 1300px;
+    max-width: 1000px;
+    margin-right: 10px;
+
+    .row-content {
+        .col-content {
+            text-align: center;
+
+            height: 400px;
+            padding-top: 30px;
+
+            .image-content {
+                width: 200px;
+                height: 290px;
+            }
+
+            .information-product {
+
+                max-width: 1000px;
+                max-height: 1000px;
+                width: 200px;
+                margin: 5px;
+                padding-right: 100px;
+
+                .star {
+                    color: yellow;
+                    outline: none;
+                    font-size: 20px;
+                    padding-right: 60px;
+                }
+
+                .product {
+                    font-size: 17px;
+                    padding-right: 40px;
+                }
+
+                .dorlar {
+                    padding-right: 17px;
+                }
+
+                .view {
+                    opacity: 0.2;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+
+
+.footer-header {
+    justify-content: center;
+}
+
+.kkk {
+    border: 1px solid red;
+}
